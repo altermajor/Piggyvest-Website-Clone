@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: DM Sans;
+}
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px 94px 200px;
+    align-items: center;
+    background-color: white;
+}
+nav img{
+    height: 2rem;
+    width: auto;
+    color: black;
+    padding: 0px 20px 0px 0px;
+    fill: black;
+    cursor: pointer;
+}
+li,a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(12, 24, 37, 1);
+    font-weight: 600;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbtn2{
+    color: white;
+    padding: 16px 22px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(12, 24, 37, 1);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navbtn1{
+    color:  rgba(12, 24, 37, 1);
+    padding: 16px 22px;
+    border: solid 1px  rgba(12, 24, 37, 1);
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.navbtn{
+    padding: 0px 10px;
+}
+.navbtn1:hover{
+    transition: .5s;
+    color: blue;
+    border: solid 1px blue;
+}
+.navbtn2:hover{
+    transition: .5s;
+ background-color: blue;
+}
+/* end of Navigation */
+
+/* hero section */
+.hero {
+    margin: 100px 0px 0px 200px;
+}
+.herosection{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    font-size: 65px;
+    font-weight: 900;
+    color: rgba(12, 24, 37, 1);
+}
+header p {
+padding-top: 15px;
+color: rgba(12, 24, 37, 1);
+}
+header button{
+    margin-top: 30px;
+}
+.herobtn1{
+    color:  rgba(12, 24, 37, 1);
+    padding: 10px 15px;
+    border: solid 1px  rgb(179, 179, 179);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    background: none;
+    cursor: pointer;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-right: 15px;
+}
+i{
+    height: 32px;
+    width: 32px;
+    padding-bottom: 10px;
+}
+.herobtn2{
+    color:  rgba(12, 24, 37, 1);
+    padding: 10px 15px;
+    border: solid 1px  rgb(179, 179, 179);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    background: none;
+    cursor: pointer;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.herobtn{
+    display: flex;
+    align-items: center;
+}
+header img{
+    height: 535px;
+width: auto;
+margin-right: 200px;
+}
+.herobtn1:hover{
+    margin-top: -1px;
+    transition: 1s;
+}
+.herobtn2:hover{
+    margin-top: -1px;
+    transition: 1s;
+}
+/* end of hero section */
+/* first section */
+.firstsection{
+    margin: 200px 250px 100px 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstsection img{
+    height: 107px;
+    width: auto;
+}
+.text{
+    padding: 40px;
+}
+.text h1{
+    font-size: 34px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.text p{
+font-size: 15.5px;
+padding-bottom: 20px;
+font-weight: lighter;
+line-height: 25px;
+}
+.text a{
+    color: blue;
+    font-size: 16.5px;
+}
+/* end of first section */
+/* second section */
+.secondsection{
+    display: flex;
+}
+.secondsectext{
+    margin: 100px 0px 100px 200px;
+}
+.secondsectext h1{
+    font-size: 34px;
+padding-bottom: 10px;
+}
+.secondsectext p{
+    font-size: 16.5px;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.firstcardbtn{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    font-size: 16.5px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin-top: 30px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.firstcardbtn img{
+height: 31px;
+width: auto;
+padding-right: 10px;
+}
+.piggybankicon{
+    height: 50px;
+    width: auto;
+margin-bottom: 20px;
+}
+.firstcard h1{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.firstcard p{
+    padding-bottom: 30px;
+    font-size: 16.5px;
+}
+.firstcardsection{
+margin: 50px 50px 50px 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.firstcard{
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.secondcardbtn{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    font-size: 16.5px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin-top: 30px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.secondcardbtn img{
+height: 31px;
+width: auto;
+padding-right: 10px;
+}
+.piggybankicon{
+    height: 50px;
+    width: auto;
+margin-bottom: 20px;
+}
+.secondcard1 h1{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.secondcard p{
+    padding-bottom: 30px;
+    font-size: 16.5px;
+}
+.secondcard1{
+    padding: 20px;
+    margin-top: 90px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.secondcardsection{
+    margin: 50px 200px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.secondcard h1{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.secondcard{
+    padding: 20px;
+    margin-top: 70px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.firstcardbtn:hover{
+transition: .3s;
+margin-left: 10px;
+}
+.secondcardbtn:hover{
+    transition: .3s;
+    margin-left: 10px;
+}
+/* end of second section */
+/* third section */
+.thirdsection{
+    margin: 100px 350px 100px 150px;
+    display: flex;
+    justify-content: center;
+}
+.thirdsection img{
+    height: 610px;
+    width: auto;
+}
+.thirdsection button{
+    border: none;
+    background-color: rgba(227, 205, 249, 0.42);
+    padding: 10px 15px;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 16.5px;
+    border-radius: 50px;
+ 
+}
+.thirdsecdiv{
+    margin-left: 50px;
+    margin-top: 110px;
+ 
+}
+.thirdsection h1{
+    font-size: 48px;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+.thirdsection p{
+    font-size: 16.5px;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.thirdsection a{
+ color: blueviolet;
+ font-size: 16.5px;
+}
+/* end of third section */
+/* fourth section */
+.fourthsectiondiv{
+    background-color: rgba(0, 81, 238, 1);
+    height: 472px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 250px;
+}
+.fourthsection{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+}
+.fourthsection img{
+    height: 472px;
+width: auto;
+}
+.fourthsectiondiv h1{
+    font-size: 48px;
+    color: white;
+    padding-bottom: 20px;
+}
+.fourthsectiondiv p{
+    font-size: 16.5px;
+    font-weight: lighter;
+    color: white;
+    line-height: 25px;
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+.fourthsection a img{
+height: 31px;
+width: 31px;
+margin-right: 10px;
+}
+.fourthsection a{
+    color: white;
+    font-size: 16.5px;
+    font-weight: 500;
+    display: flex;
+align-items: center;
+}
+/* end of fourth section */
+/* fifth section */
+.testimonial{
+    display: flex;
+margin-bottom: 30px;
+margin-left: 250px;
+}
+.testimonial img{
+    height: 33px;
+    width: auto;
+    margin-right: 10px;
+}
+.testimonial h1{
+    font-size: 14px;
+}
+.testimonial p{
+    font-size: 12px;
+}
+.testimonial__section{
+    height: 300px;
+    overflow-y: hidden;
+    position: relative;
+    width: auto;
+    margin-bottom: 200px;
+}
+.testimonial__height{
+animation: scroll 20s linear 0s infinite normal none running;
+height: 300px;
+}
+@keyframes scroll{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-560px);
+    }
+}
+.fifthsection{
+    display: flex;
+    flex-direction: row;
+}
+#text{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+#text h1{
+    font-size: 33px;
+    padding-bottom: 15px;
+}
+#text p{
+    font-size: 16.5px;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+#text button{
+    margin-bottom: 25px;
+}
+/* end of fifth section */
+/* sixth section */
+.sixthsection{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     align-items: center;
+     height: 150px;
+     width: 100%;
+     background-color: rgba(249, 249, 249, 1);
+     margin-top: -100px;
+}
+.sixthsection h1{
+    font-size: 33px;
+    padding-right: 100px;
+}
+.sixthsection img{
+    height: 65px;
+    width: auto;
+}
+/* end of sixth section */
+/* footer */
+footer img{
+    height: 2rem;
+    width: auto;
+    color: black;
+    padding: 0px 20px 0px 0px;
+    fill: black;
+    cursor: pointer;
+}
+footer{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+.firstfooter{
+margin-left: 100px;
+}
+footer h1{
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+footer a{
+    font-size: 13px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+footer div{
+    margin-right: 50px;
+    margin-left: 100px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+margin-right: -12px;
+padding-bottom: 15px;
+}
+.socials img{
+    height: 24px;
+    width:auto;
+}
+.contact p{
+font-size: 13px;
+font-weight: lighter;
+text-align: right;
+padding-bottom: 20px;
+}
+footer a:hover{
+    transition: .3s;
+    color: blue;
+}
+.socials img:hover{
+    transition: .3s;
+    margin-top: -3px;
+}
+.legal{
+    margin: 50px 200px 10px 200px;
+}
+.legal p{
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.copyright{
+    color: blue;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.watermark{
+    color: red;
+}
+/* end of footer */
+/* DONE!!! */
